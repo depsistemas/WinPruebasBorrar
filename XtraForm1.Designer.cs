@@ -46,7 +46,7 @@
             // bttstart
             // 
             this.bttstart.ImageOptions.SvgImage = global::WinPruebas.Properties.Resources.gettingstarted;
-            this.bttstart.Location = new System.Drawing.Point(132, 12);
+            this.bttstart.Location = new System.Drawing.Point(12, -1);
             this.bttstart.Name = "bttstart";
             this.bttstart.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
             this.bttstart.Size = new System.Drawing.Size(85, 59);
@@ -57,9 +57,8 @@
             // bttstop
             // 
             this.bttstop.ImageOptions.SvgImage = global::WinPruebas.Properties.Resources.stop;
-            this.bttstop.Location = new System.Drawing.Point(454, 18);
+            this.bttstop.Location = new System.Drawing.Point(103, 5);
             this.bttstop.Name = "bttstop";
-            this.bttstop.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
             this.bttstop.Size = new System.Drawing.Size(94, 47);
             this.bttstop.TabIndex = 1;
             this.bttstop.Text = "Finalizar";
@@ -90,7 +89,7 @@
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(355, 5);
+            this.simpleButton1.Location = new System.Drawing.Point(533, 0);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 4;
@@ -100,27 +99,27 @@
             // marqueeProgressBarControl1
             // 
             this.marqueeProgressBarControl1.EditValue = 0;
-            this.marqueeProgressBarControl1.Location = new System.Drawing.Point(287, 34);
+            this.marqueeProgressBarControl1.Location = new System.Drawing.Point(12, 55);
             this.marqueeProgressBarControl1.Name = "marqueeProgressBarControl1";
-            this.marqueeProgressBarControl1.Size = new System.Drawing.Size(100, 18);
+            this.marqueeProgressBarControl1.Size = new System.Drawing.Size(693, 18);
             this.marqueeProgressBarControl1.TabIndex = 5;
             // 
             // simpleButton2
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(630, 12);
+            this.simpleButton2.Location = new System.Drawing.Point(614, 0);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(75, 23);
             this.simpleButton2.TabIndex = 6;
-            this.simpleButton2.Text = "simpleButton2";
+            this.simpleButton2.Text = "Boton 2";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // simpleButton3
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(630, 41);
+            this.simpleButton3.Location = new System.Drawing.Point(614, 29);
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(75, 23);
             this.simpleButton3.TabIndex = 7;
-            this.simpleButton3.Text = "simpleButton3";
+            this.simpleButton3.Text = "Boton 3";
             this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
             // spinEdit1
@@ -130,7 +129,7 @@
             0,
             0,
             0});
-            this.spinEdit1.Location = new System.Drawing.Point(565, 38);
+            this.spinEdit1.Location = new System.Drawing.Point(468, 2);
             this.spinEdit1.Name = "spinEdit1";
             this.spinEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
