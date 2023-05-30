@@ -89,11 +89,11 @@
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(533, 0);
+            this.simpleButton1.ImageOptions.Image = global::WinPruebas.Properties.Resources.add_32x32;
+            this.simpleButton1.Location = new System.Drawing.Point(548, 5);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(75, 23);
+            this.simpleButton1.Size = new System.Drawing.Size(40, 43);
             this.simpleButton1.TabIndex = 4;
-            this.simpleButton1.Text = "simpleButton1";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // marqueeProgressBarControl1
@@ -129,11 +129,13 @@
             0,
             0,
             0});
-            this.spinEdit1.Location = new System.Drawing.Point(468, 2);
+            this.spinEdit1.Location = new System.Drawing.Point(364, 3);
             this.spinEdit1.Name = "spinEdit1";
+            this.spinEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 20F, System.Drawing.FontStyle.Bold);
+            this.spinEdit1.Properties.Appearance.Options.UseFont = true;
             this.spinEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit1.Size = new System.Drawing.Size(59, 20);
+            this.spinEdit1.Size = new System.Drawing.Size(125, 40);
             this.spinEdit1.TabIndex = 8;
             // 
             // XtraForm1

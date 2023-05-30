@@ -163,6 +163,7 @@ namespace WinPruebas
 
             //    Console.WriteLine("Fila = " + i);
             //}
+            MessageBox.Show("Bien");
         }
 
         public string VerificarConexionURL(string mURL)
