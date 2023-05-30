@@ -29,6 +29,7 @@ namespace WinPruebas
 
         private void bttstart_Click(object sender, EventArgs e)
         {
+            richTextBox1.Text = string.Empty;
             fe_start = "run";
             memoEdit1.Text = "start\r\n";
             // Reset the text in the result label.
@@ -154,14 +155,14 @@ namespace WinPruebas
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            int fila = 0;
-            for(int i=0; i<10; i++)
-            {
-                System.Threading.Thread.Sleep(5000);
-                fila++;
+            ////int fila = 0;
+            //for(int i=0; i<10; i++)
+            //{
+            //    System.Threading.Thread.Sleep(5000);
+            //    i++;
 
-                Console.WriteLine("Fila = " + i);
-            }
+            //    Console.WriteLine("Fila = " + i);
+            //}
         }
 
         public string VerificarConexionURL(string mURL)
@@ -185,6 +186,19 @@ namespace WinPruebas
                 resp = ex.Message;
             }
             return resp;
+        }
+
+        private void simpleButton2_Click(object sender, EventArgs e)
+        {
+            XtraForm2 xtraForm2 = new XtraForm2();
+            xtraForm2.ShowDialog();
+
+        }
+
+        private void simpleButton3_Click(object sender, EventArgs e)
+        {
+            XtraForm4 xtraForm4 = new XtraForm4();
+            xtraForm4.ShowDialog();
         }
     }
 }
