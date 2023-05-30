@@ -66,6 +66,7 @@
             // 
             // richTextBox1
             // 
+            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.richTextBox1.Location = new System.Drawing.Point(12, 77);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(323, 319);
@@ -76,6 +77,8 @@
             // 
             this.memoEdit1.Location = new System.Drawing.Point(341, 76);
             this.memoEdit1.Name = "memoEdit1";
+            this.memoEdit1.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.memoEdit1.Properties.Appearance.Options.UseBackColor = true;
             this.memoEdit1.Size = new System.Drawing.Size(364, 320);
             this.memoEdit1.TabIndex = 3;
             // 
@@ -129,9 +132,11 @@
             0,
             0,
             0});
-            this.spinEdit1.Location = new System.Drawing.Point(364, 3);
+            this.spinEdit1.Location = new System.Drawing.Point(391, 8);
             this.spinEdit1.Name = "spinEdit1";
+            this.spinEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Red;
             this.spinEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 20F, System.Drawing.FontStyle.Bold);
+            this.spinEdit1.Properties.Appearance.Options.UseBackColor = true;
             this.spinEdit1.Properties.Appearance.Options.UseFont = true;
             this.spinEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
