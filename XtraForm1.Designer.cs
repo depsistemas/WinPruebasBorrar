@@ -37,16 +37,16 @@
             this.marqueeProgressBarControl1 = new DevExpress.XtraEditors.MarqueeProgressBarControl();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.spinEdit1 = new DevExpress.XtraEditors.SpinEdit();
+            this.spenumero = new DevExpress.XtraEditors.SpinEdit();
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.marqueeProgressBarControl1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spenumero.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // bttstart
             // 
             this.bttstart.ImageOptions.SvgImage = global::WinPruebas.Properties.Resources.gettingstarted;
-            this.bttstart.Location = new System.Drawing.Point(12, -1);
+            this.bttstart.Location = new System.Drawing.Point(33, -5);
             this.bttstart.Name = "bttstart";
             this.bttstart.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
             this.bttstart.Size = new System.Drawing.Size(85, 59);
@@ -57,7 +57,7 @@
             // bttstop
             // 
             this.bttstop.ImageOptions.SvgImage = global::WinPruebas.Properties.Resources.stop;
-            this.bttstop.Location = new System.Drawing.Point(103, 5);
+            this.bttstop.Location = new System.Drawing.Point(171, 1);
             this.bttstop.Name = "bttstop";
             this.bttstop.Size = new System.Drawing.Size(94, 47);
             this.bttstop.TabIndex = 1;
@@ -125,30 +125,30 @@
             this.simpleButton3.Text = "Boton 3";
             this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
-            // spinEdit1
+            // spenumero
             // 
-            this.spinEdit1.EditValue = new decimal(new int[] {
+            this.spenumero.EditValue = new decimal(new int[] {
             0,
             0,
             0,
             0});
-            this.spinEdit1.Location = new System.Drawing.Point(391, 8);
-            this.spinEdit1.Name = "spinEdit1";
-            this.spinEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Red;
-            this.spinEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 20F, System.Drawing.FontStyle.Bold);
-            this.spinEdit1.Properties.Appearance.Options.UseBackColor = true;
-            this.spinEdit1.Properties.Appearance.Options.UseFont = true;
-            this.spinEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.spenumero.Location = new System.Drawing.Point(391, 8);
+            this.spenumero.Name = "spenumero";
+            this.spenumero.Properties.Appearance.BackColor = System.Drawing.Color.Red;
+            this.spenumero.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 20F, System.Drawing.FontStyle.Bold);
+            this.spenumero.Properties.Appearance.Options.UseBackColor = true;
+            this.spenumero.Properties.Appearance.Options.UseFont = true;
+            this.spenumero.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit1.Size = new System.Drawing.Size(125, 40);
-            this.spinEdit1.TabIndex = 8;
+            this.spenumero.Size = new System.Drawing.Size(125, 40);
+            this.spenumero.TabIndex = 8;
             // 
             // XtraForm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(717, 408);
-            this.Controls.Add(this.spinEdit1);
+            this.Controls.Add(this.spenumero);
             this.Controls.Add(this.simpleButton3);
             this.Controls.Add(this.simpleButton2);
             this.Controls.Add(this.marqueeProgressBarControl1);
@@ -162,7 +162,7 @@
             this.Load += new System.EventHandler(this.XtraForm1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.marqueeProgressBarControl1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spenumero.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -178,6 +178,6 @@
         private DevExpress.XtraEditors.MarqueeProgressBarControl marqueeProgressBarControl1;
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
         private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SpinEdit spinEdit1;
+        private DevExpress.XtraEditors.SpinEdit spenumero;
     }
 }
